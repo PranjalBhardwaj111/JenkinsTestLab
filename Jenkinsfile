@@ -8,13 +8,13 @@ pipeline {
       stage('Testing'){
         steps{
           echo 'running Tests'
-          sh 'mvn test'
+          echo 'Command 1'
         }
       }
       stage('Build') {
         steps{
           echo 'Building jar files...'
-          sh 'mvn package'
+          echo 'Command 2'
         }
       }
   }
