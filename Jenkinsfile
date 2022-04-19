@@ -11,7 +11,6 @@ pipeline {
         steps{
           echo 'Building jar files...'
           echo 'Command 2'
-          bat 'Python3 test.py'
         }
       }
   }
