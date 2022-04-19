@@ -11,7 +11,7 @@ pipeline {
         steps{
           echo 'Building jar files...'
           echo 'Command 2'
-          sh 'python test.py'
+          sh 'python3 test.py'
         }
       }
   }
